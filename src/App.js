@@ -18,6 +18,7 @@ import EventClass2 from './components/eventHandler/EventClass2';
 import RefComponent1 from './components/refComponent/RefComponent1';
 import RefComponent2 from './components/refComponent/RefComponent2';
 import RefComponent3 from './components/refComponent/RefComponent3';
+import Lifecycle from './components/lifecycleComponent/Index';
 
 function App() {
   // const name = "Ngoding Channel"
@@ -26,7 +27,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RefComponent3 />
+        <Lifecycle />
+        {/* <RefComponent3 /> */}
         {/* <RefComponent2 /> */}
         {/* <RefComponent1 /> */}
         {/* <EventClass2 /> */}
