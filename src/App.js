@@ -4,7 +4,8 @@ import CComponent from './components/component/ClassComponent';
 import ComponentJSX from './components/component/Component';
 import UserClass from './components/props/UserClass';
 import UserFunctional from './components/props/UserFunctional';
-import Home from './components/state/StateClassComponent';
+import Home from './components/state/Home';
+import Dashboard from './components/useState/Dashboard';
 
 function App() {
   // const name = "Ngoding Channel"
@@ -13,7 +14,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Home />
+        <Dashboard />
+        {/* <Home /> */}
         {/* <UserFunctional channel="Coding Channel" email="coding@gmail.com"/> */}
         {/* <UserClass name="ReactJS Channel" email="reactjs@gmail.com" subscriber={5000}/>
         <UserClass name={name} email={email} subscriber={pengikut}/> */}
