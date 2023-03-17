@@ -3,6 +3,7 @@ import FComponent from './components/component/FunctionalComponent';
 import CComponent from './components/component/ClassComponent';
 import ComponentJSX from './components/component/Component';
 import UserClass from './components/props/UserClass';
+import UserFunctional from './components/props/UserFunctional';
 
 function App() {
   const name = "Ngoding Channel"
@@ -11,8 +12,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UserClass name="ReactJS Channel" email="reactjs@gmail.com" subscriber={5000}/>
-        <UserClass name={name} email={email} subscriber={pengikut}/>
+        <UserFunctional channel="Coding Channel" email="coding@gmail.com"/>
+        {/* <UserClass name="ReactJS Channel" email="reactjs@gmail.com" subscriber={5000}/>
+        <UserClass name={name} email={email} subscriber={pengikut}/> */}
         {/* <ComponentJSX /> */}
         {/* <CComponent /> */}
         {/* <FComponent /> */}
