@@ -15,6 +15,9 @@ import Conditional5 from './components/rendering/Conditional5';
 import EventFunctional from './components/eventHandler/EventFunctional';
 import EventClass1 from './components/eventHandler/EventClass1';
 import EventClass2 from './components/eventHandler/EventClass2';
+import RefComponent1 from './components/refComponent/RefComponent1';
+import RefComponent2 from './components/refComponent/RefComponent2';
+import RefComponent3 from './components/refComponent/RefComponent3';
 
 function App() {
   // const name = "Ngoding Channel"
@@ -23,7 +26,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <EventClass2 />
+        <RefComponent3 />
+        {/* <RefComponent2 /> */}
+        {/* <RefComponent1 /> */}
+        {/* <EventClass2 /> */}
         {/* <EventClass1 /> */}
         {/* <EventFunctional /> */}
         {/* <Conditional5 /> */}
