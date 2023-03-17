@@ -13,6 +13,8 @@ import Conditional3 from './components/rendering/Conditional3';
 import Conditional4 from './components/rendering/Conditional4';
 import Conditional5 from './components/rendering/Conditional5';
 import EventFunctional from './components/eventHandling/EventFunctional';
+import EventClass1 from './components/eventHandling/EventClass1';
+import EventClass2 from './components/eventHandling/EventClass2';
 
 function App() {
   // const name = "Ngoding Channel"
@@ -21,7 +23,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <EventFunctional />
+        <EventClass2 />
+        {/* <EventClass1 /> */}
+        {/* <EventFunctional /> */}
         {/* <Conditional5 /> */}
         {/* <Conditional4 /> */}
         {/* <Conditional3 /> */}
